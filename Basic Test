@@ -1,1 +1,7 @@
+# tests/test_model.py
+
+def test_model_load():
+    from h2o_ml_wrapper.model import H2OModel
+    model = H2OModel()
+    assert model is not None
 
