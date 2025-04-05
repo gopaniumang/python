@@ -1,0 +1,5 @@
+from h2o_ml_wrapper.model import H2OModel
+
+model = H2OModel()
+model.train('train.csv', target='target_column')
+predictions = model.predict('test.csv')
