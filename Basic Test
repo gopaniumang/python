@@ -5,3 +5,26 @@ def test_model_load():
     model = H2OModel()
     assert model is not None
 
+---
+
+### ☁️ Step 8: Upload to GitHub
+
+1. Initialize git:
+    ```bash
+    git init
+    git add .
+    git commit -m "Initial commit"
+    ```
+
+2. Create a repo on GitHub and follow their instructions, e.g.:
+
+    ```bash
+    git remote add origin https://github.com/yourusername/h2o_ml_wrapper.git
+    git branch -M main
+    git push -u origin main
+    ```
+
+---
+
+Would you like me to create a GitHub repo for you (if you link your account), or would you like the zip version of the above project to upload manually?
+
